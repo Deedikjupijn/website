@@ -18,3 +18,21 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+
+.door:hover {
+    background-color: rgba(192, 192, 192, 0.76);
+    transition: 500ms;
+}
+
+.kop1 {
+    background-color: rgba(192, 192, 192, 0.493);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kop1:hover {
+    background-color: rgba(192, 192, 192, 0.76);
+    transition: 500ms;
+}
