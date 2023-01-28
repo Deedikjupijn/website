@@ -48,3 +48,18 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+img {
+    float: left;
+}
+
+.logo {
+    width: 50px;
+}
