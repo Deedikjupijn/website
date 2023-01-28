@@ -36,6 +36,12 @@ body {
 .menu a:hover {
     background-color: #ddd;
     color: blue;
+    transition: 100ms;
+}
+
+.activepage {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .footer {
