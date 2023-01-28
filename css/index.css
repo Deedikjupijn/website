@@ -1,11 +1,20 @@
-.paginatitle {
-    text-align: center;
-    padding: 20px;
-    font-size: 2em;
-}
-
 body {
     background-image: url("../media/background/nietjegatvaninternet.jpeg");
     background-repeat: no-repeat;
     background-width: 100%;
+}
+
+.paginatitle {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    background-color: rgba(192, 192, 192, 0.808)
+}
+
+.door {
+    background-color: rgba(192, 192, 192, 0.493);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
