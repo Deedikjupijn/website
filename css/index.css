@@ -1,7 +1,7 @@
 body {
     background-image: url("../media/background/nietjegatvaninternet.jpeg");
     background-repeat: no-repeat;
-    background-width: 100%;
+    background-size: cover;
 }
 
 .paginatitle {
