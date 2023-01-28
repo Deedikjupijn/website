@@ -5,6 +5,7 @@
 }
 
 body {
-    background-image: url('https://i.imgur.com/rWDMb0K.jpeg');
+    background-image: url("media/background/nietjegatvaninternet.jpeg");
     background-repeat: no-repeat;
+    background-width: 100%;
 }
