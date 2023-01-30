@@ -6,15 +6,27 @@
         <link rel="icon" type="image/x-icon" href="/media/favicon/favicon.ico">
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/projects.css" type="text/css" media="all" />
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
 
     <body>
         <div class="menu">
             <div class="options">
                 <a href="contact.html">Contact</a>
-                <a class="activepage" href="projects.html">Projects</a>
+                <div class="dropdown">
+                    <button onclick="dropButton()">
+                        <a class="activepage" href="projects.html">Projects</a>
+                    </button>
+                    <div id="dropMenu" class="dropdowncontent">
+                        <a href="projects/minecraft server/main.html">Minecraft server</a>
+                        <a href="projects/Home-assistant/main.html">Home-assistant</a>
+                        <a href="projects/discord bot/main.html">Discord bot</a>
+                        <a href="projects/website/main.html">Website</a>
+                    </div>
+                </div>
                 <a href="about.html">About</a>
                 <a href="index.html">Home</a>
+
             </div>
             <div class="header">
                 <img class="logo" src="media/logo-rmbg.png">
@@ -22,7 +34,11 @@
             </div>
         </div>
         <div class="homepage">
-
+            <div>
+                <h1>Projects</h1>
+                <p>Here are some of my projects.</p>
+                <p href=""></p>
+            </div>
         </div>
         <div class="footer">
             <p>© 2017 - All Rights Reserved</p>

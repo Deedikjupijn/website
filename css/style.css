@@ -39,6 +39,25 @@ body {
     transition: 100ms;
 }
 
+.dropdown-content {
+    display: none;
+    float: right;
+    position: relative;
+    background-color: #4a4a4a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .activepage {
     background-color: #4CAF50;
     color: white;
