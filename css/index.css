@@ -23,5 +23,5 @@ body {
 .door:hover,
 .kop1:hover {
     background-color: rgba(192, 192, 192, 0.76);
-    transition: 500ms;
+    transition: 250ms;
 }
