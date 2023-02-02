@@ -13,10 +13,8 @@ body {
 
 .door,
 .kop1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.409);
     padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
     text-align: center;
 }
 
