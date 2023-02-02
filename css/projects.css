@@ -3,3 +3,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.projectblock {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/* List of urls to the projects */
+
+.projectslist {
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+    text-decoration: solid;
+}
+
+.project {
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+    text-decoration: solid;
+}
